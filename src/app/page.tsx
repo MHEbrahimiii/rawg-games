@@ -59,7 +59,7 @@ export default async function Home(props: { searchParams: Promise<Record<string,
   const nextHref = hasNext ? getHref(currentPage + 1) : '/';
 
   return (
-    <main className="min-h-screen bg-[var(--background)] py-8 px-4" dir="rtl">
+    <main className="min-h-screen  py-8 px-4" dir="rtl">
       <div className="max-w-7xl mx-auto">
         <h1 className="text-4xl font-bold text-center mb-8 text-red-500">لیست بازی های ویدیویی</h1>
 
