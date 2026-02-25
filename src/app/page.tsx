@@ -64,7 +64,7 @@ export default async function Home(props: { searchParams: Promise<Record<string,
         <h1 className="text-4xl font-bold text-center mb-8 text-red-500">لیست بازی های ویدیویی</h1>
 
         {!process.env.RAWG_API_KEY ? (
-          <p className="text-center text-red-500 text-xl">لطفا RAWG_API_KEY را در فایل .env.local تنظیم کنید.</p>
+          <p className="text-center text-xl">لطفا RAWG_API_KEY را در فایل .env.local تنظیم کنید.</p>
         ) : error ? (
           <p className="text-center text-red-500 text-xl py-20">{error}</p>
         ) : (
